@@ -2,7 +2,7 @@ const express = require('express');
 
 const app = express();
 
-app.get('/teste3', (req, res) => {
+app.get('/teste4', (req, res) => {
     return res.json({ hello: `world 3`})
 });
 
